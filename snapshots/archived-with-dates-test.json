@@ -1,0 +1,1548 @@
+{
+  "snapshotDate": "2026-02-03",
+  "apps": [
+    {
+      "appReviewsUrl": "https://apps.shopify.com/event-tickets/reviews",
+      "firstPageUrl": "https://apps.shopify.com/event-tickets/reviews?page=1",
+      "lastPage": 23,
+      "archivedReviews": [
+        {
+          "id": "2063149",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2026806",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2015748",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1978685",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1968234",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1923893",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1923643",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1919892",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1898794",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1872507",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1857374",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1853053",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1801407",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1779329",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1764750",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1758059",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1668747",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1658972",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1524478",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1518366",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1508950",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1505382",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1503750",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1480081",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1473355",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1440677",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1419845",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1400095",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1391186",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1391072",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1362851",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1324937",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1260585",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1255939",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1255207",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1173758",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1130000",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1077967",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1076295",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1072485",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1042684",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1003780",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "967150",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "953093",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "949678",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "856301",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "823544",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "823253",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "821871",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "804560",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "January 30, 2025",
+          "dateISO": "2025-01-29"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Wellington Fleur & Co. Canada 10 months using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied February 3, 2025",
+          "dateISO": "2025-02-02"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "February 20, 2025",
+          "dateISO": "2025-02-19"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Apple Holler United States 6 months using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied February 24, 2025",
+          "dateISO": "2025-02-23"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "January 16, 2024",
+          "dateISO": "2024-01-15"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Please France 12 months using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied January 17, 2024",
+          "dateISO": "2024-01-16"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "December 23, 2024",
+          "dateISO": "2024-12-22"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Confetti Play and Cafe LLC United States 9 minutes using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied December 26, 2024",
+          "dateISO": "2024-12-25"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "January 11, 2024",
+          "dateISO": "2024-01-10"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "'Sippsi Good Tea United States 4 minutes using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied January 15, 2024",
+          "dateISO": "2024-01-14"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "January 24, 2025",
+          "dateISO": "2025-01-23"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "SET4ALL Canada 3 minutes using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied January 27, 2025",
+          "dateISO": "2025-01-26"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "February 2, 2026",
+          "dateISO": "2026-02-01"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Not Proud Always Grateful United Kingdom 5 days using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "January 6, 2026",
+          "dateISO": "2026-01-05"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "Very Easy to use App ! We love it !",
+          "dateText": "WOMEN'S EMPOWERMENT TEA PARTY United States",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "December 26, 2025",
+          "dateISO": "2025-12-25"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "还没有测试完成，等下再看",
+          "dateText": "hotfood Singapore",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "November 27, 2025",
+          "dateISO": "2025-11-26"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "NEXTUPEVENT France",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "November 20, 2025",
+          "dateISO": "2025-11-19"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "Rolando from support help me to personalize my event... its great!!! The app works perfectly, and you have the best support to make it just fit your needs.",
+          "dateText": "Pista de Hielo Pueblo Serena Mexico 3 days using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "October 20, 2025",
+          "dateISO": "2025-10-19"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Zbags Chile 5 minutes using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "Cool for real",
+          "dateText": "Justmilezent United States About 1 hour using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "October 16, 2025",
+          "dateISO": "2025-10-15"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "Great experience in creating my first event.",
+          "dateText": "trimbaknexa United States 32 minutes using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "September 30, 2025",
+          "dateISO": "2025-09-29"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "NuWalk United States About 2 months using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "September 9, 2025",
+          "dateISO": "2025-09-08"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Melomania Peru",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "August 28, 2025",
+          "dateISO": "2025-08-27"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "My Store Czechia",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "August 25, 2025",
+          "dateISO": "2025-08-24"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "Yes Its easy to use",
+          "dateText": "Attohzone Ventures Store Ghana",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "July 15, 2025",
+          "dateISO": "2025-07-14"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "My Store United States",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "June 26, 2025",
+          "dateISO": "2025-06-25"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Kbdmstore1 Cameroon",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied June 30, 2025",
+          "dateISO": "2025-06-29"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "June 13, 2025",
+          "dateISO": "2025-06-12"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Shopeedika India 6 minutes using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "June 7, 2025",
+          "dateISO": "2025-06-06"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "Very unresponsive to messages regarding billing issues.",
+          "dateText": "Lake Chapala Transport Mexico 5 months using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Edited June 4, 2025",
+          "dateISO": "2025-06-03"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "Great friendly and quick service.",
+          "dateText": "Kairos Dance Convention New Zealand 4 months using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied February 11, 2025",
+          "dateISO": "2025-02-10"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "So far so good !",
+          "dateText": "Camilight United States 25 minutes using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "September 8, 2024",
+          "dateISO": "2024-09-07"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Spolj Ashima Italy About 1 month using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied September 9, 2024",
+          "dateISO": "2024-09-08"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "September 2, 2024",
+          "dateISO": "2024-09-01"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "Mary was great and talked me through on look how to fix my issues. Thank you helping",
+          "dateText": "Christmas Camper Convoy United Kingdom 7 months using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied September 4, 2024",
+          "dateISO": "2024-09-03"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "August 24, 2024",
+          "dateISO": "2024-08-23"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "Super j'ai facilement trouver comment faire un event",
+          "dateText": "BPGWEAR Canada 11 days using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied August 26, 2024",
+          "dateISO": "2024-08-25"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "August 21, 2024",
+          "dateISO": "2024-08-20"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "Very helpful and simple application. Easy to understand. Had an issue with the plan we selected, but the customer service was fast and could solve the issue. Thank you.",
+          "dateText": "Jelmoli Inventarverkauf Switzerland 29 days using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied August 22, 2024",
+          "dateISO": "2024-08-21"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "August 19, 2024",
+          "dateISO": "2024-08-18"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Mysterify by CLIJ India",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied August 21, 2024",
+          "dateISO": "2024-08-20"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "July 27, 2024",
+          "dateISO": "2024-07-26"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "Very useful and helpful with lots of features!",
+          "dateText": "AntonioLintz Germany 2 days using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied July 29, 2024",
+          "dateISO": "2024-07-28"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "July 20, 2024",
+          "dateISO": "2024-07-19"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "Shopifyストアでのオンラインチケット販売のためにこのアプリを使用しています。 アプリに不具合が発生したためサポートに連絡し、大きめの不具合だったようで修正まで少し時間はかかりましたが、日本と本国の時差があるにもかかわらず、サポートとのやり取りは迅速にできて随時状況の報告もしてくれたので良かったです。",
+          "dateText": "ワンパウンダーチャレンジ2024 第1弾 Japan About 2 years using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied July 22, 2024",
+          "dateISO": "2024-07-21"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "June 19, 2024",
+          "dateISO": "2024-06-18"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Juuso Jokiniemi Finland 5 minutes using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied June 20, 2024",
+          "dateISO": "2024-06-19"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "May 29, 2024",
+          "dateISO": "2024-05-28"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "locura!",
+          "dateText": "LA 14 BARBER STUDIO Spain 3 minutes using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied June 3, 2024",
+          "dateISO": "2024-06-02"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "May 9, 2024",
+          "dateISO": "2024-05-08"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Auraki Mai Collections New Zealand 3 minutes using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied May 10, 2024",
+          "dateISO": "2024-05-09"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "April 30, 2024",
+          "dateISO": "2024-04-29"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Gifts Just Because United States 14 minutes using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied May 1, 2024",
+          "dateISO": "2024-04-30"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "increible",
+          "dateText": "DBF's Store Spain 2 days using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "April 2, 2024",
+          "dateISO": "2024-04-01"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "we used evey for a charity event. We were first time users of the shopify platform and added evey. Once we got used to shopify and learned how to use evey with ticket sales, it was super beneficial. The support staff at evey was way above our expectations and they even offered to get on a zoom call to explain how the platform worked.",
+          "dateText": "A Night In Monaco Charity Gala United States 8 months using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied April 4, 2024",
+          "dateISO": "2024-04-03"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "February 26, 2024",
+          "dateISO": "2024-02-25"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "Easy to use, reasonably priced, full-featured, good people.",
+          "dateText": "BostonGlory United States",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied February 28, 2024",
+          "dateISO": "2024-02-27"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "December 18, 2023",
+          "dateISO": "2023-12-17"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "Really good app for booking and for event ! That make a lot of things easier than initially! I greatly recommend !",
+          "dateText": "Adventify France 17 days using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied December 21, 2023",
+          "dateISO": "2023-12-20"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "December 12, 2023",
+          "dateISO": "2023-12-11"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "Ticket Buying with Spotify Integration: Evey Apps simplifies the ticket purchasing process for our business. Its integration with Spotify streamlines the buying experience, making it more efficient and user-friendly.",
+          "dateText": "GoBoat United States 11 months using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied December 14, 2023",
+          "dateISO": "2023-12-13"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "Arcealito Virtudazo was very helpful, he guided me well. Now the problem is fixed",
+          "dateText": "Ariko India About 1 month using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied December 13, 2023",
+          "dateISO": "2023-12-12"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "September 11, 2023",
+          "dateISO": "2023-09-10"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "Ron was excellent to work with. I look forward to using EVEY!",
+          "dateText": "Good Shepherd Defense United States About 12 hours using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied September 12, 2023",
+          "dateISO": "2023-09-11"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "July 5, 2023",
+          "dateISO": "2023-07-04"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "So far the app looks good and is easy to use. I had an issue and the customer support responded quickly and efficiently.",
+          "dateText": "distorsión Chile 4 days using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied July 7, 2023",
+          "dateISO": "2023-07-06"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Edited April 14, 2023",
+          "dateISO": "2023-04-13"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "Very happy with the tech team sorting out my issue (Zac) took a little longer than expected but glad it's done! My only issue was the slow response from Customer services (emails only) and having to chase them for updates regularly. Otherwise, it's good.",
+          "dateText": "Little Kid Town United Kingdom 2 months using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied April 13, 2023",
+          "dateISO": "2023-04-12"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "April 11, 2023",
+          "dateISO": "2023-04-10"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "I dealt with Zach Siecinski over the last few days and he was brilliant. He resolved all my issues and answered all my questions, being attentive at all times.",
+          "dateText": "Starlit Therapies Ireland 9 months using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied April 11, 2023",
+          "dateISO": "2023-04-10"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Edited April 5, 2023",
+          "dateISO": "2023-04-04"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "If you are looking for a way to sell tickets on your Shopify Store, look no further. You can customise absolutely everything including tickets, and Apple Wallet 'passes'. In addition to this, the support is just incredible. They will even go as far as fixing complex problems themselves, or send fully personalised videos that talk you through rectifying the issue.",
+          "dateText": "Pixlfox United Kingdom 14 days using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied April 5, 2023",
+          "dateISO": "2023-04-04"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "February 22, 2023",
+          "dateISO": "2023-02-21"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "RON, RON, RON! What would be do without you. RON is the guy you want with you through the thick and thin. In all honesty, he has had our back throughout all of the instalation process. If I could give more grades it would be 100/100, 20/20, A+ and of course 5/5.",
+          "dateText": "Accendi Le Stelle Italy 11 days using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied February 23, 2023",
+          "dateISO": "2023-02-22"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "December 22, 2022",
+          "dateISO": "2022-12-21"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "This app is exactly what i needed to sell tickets to my event. I had it up and running in 10 minutes and sold 10 tickets as soon as i launched it. The experience is great for the attendees as well with Apple Wallet. Fantastic add on to Shopify and a must have for anyone having an event.",
+          "dateText": "Mat Made Store United States About 7 hours using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied December 22, 2022",
+          "dateISO": "2022-12-21"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "October 25, 2022",
+          "dateISO": "2022-10-24"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "Terrible experience. The app is good, but if you have questions; your event will happen first before you get an answer from them, it is so frustrating. I ended up deleting this app. And also technical issues happended, like people trying to purchase tickets from their devices and only worked on the laptop, no way! Or maybe was just me with these situations, I hope it works for others. Good luck!",
+          "dateText": "Total Incentives United States 16 days using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied October 27, 2022",
+          "dateISO": "2022-10-26"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "September 26, 2022",
+          "dateISO": "2022-09-25"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "App is amazing!! Quick check in, good shopify integration and it has everything you could possibly want.",
+          "dateText": "Planthood Australia Australia 3 months using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied October 3, 2022",
+          "dateISO": "2022-10-02"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "September 19, 2022",
+          "dateISO": "2022-09-18"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "Helpful team, we're looking forward to trying Evey Events out :) The features they offer and the fees are competitive.",
+          "dateText": "Comedy Lounge Australia 14 days using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "February 23, 2022",
+          "dateISO": "2022-02-22"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "Works well for our festivals and the Evey Events customer support were quick to get back to us and helpful",
+          "dateText": "Wavelength Shop United Kingdom Over 5 years using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "Staytuned replied May 3, 2022",
+          "dateISO": "2022-05-02"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "December 7, 2021",
+          "dateISO": "2021-12-06"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "We used Evey to sell tickets for our 2000+ attendee event in Dec 2021. It worked very well, our front-of-house staff commented on how well the app worked at check in. As organizers we appreciated the event dashboard, managing attendees, seeing sales, and creating tickets was reasonably easy if you have a basic understanding of Shopify. We needed Evey to adjust our theme so we could work out timed ...",
+          "dateText": "Royal Bison Fair Canada 2 days using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "December 6, 2021",
+          "dateISO": "2021-12-05"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "We have been using Evey since 2017 to manage our events. Before that we were printing out our Shopify order list and managing Will Call tickets with a clip board as well as wasting tons of time dealing with all the ticket transfer requests. The Evey QR codes scanner and ticket transfer features are fantastic.",
+          "dateText": "TheCalendar Canada",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "December 2, 2021",
+          "dateISO": "2021-12-01"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "Fantastic app - highly recommended. I've been really pleased to find and work with Evey, and support has been second to none. My client has a series of events (45 events/sessions over a month of dates, with different ticket types and times) Evey has been able to accommodate this, and without commission charges has delivered better value and flexibility than previous solutions. The team at Evey ...",
+          "dateText": "Timmermans Garden Centre United Kingdom 2 months using the app",
+          "dateISO": null
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": "October 25, 2021",
+          "dateISO": "2021-10-24"
+        },
+        {
+          "id": null,
+          "rating": null,
+          "ratingLabel": null,
+          "text": "+ easy to install and use + constantly improving + support is very helpful and open to feedback + very reasonable pricing",
+          "dateText": "theorangeroom Germany Over 2 years using the app",
+          "dateISO": null
+        }
+      ]
+    }
+  ]
+}

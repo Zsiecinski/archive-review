@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archived Review Tracker</title>
+  <style>
+    :root {
+      --bg: #0f1419;
+      --surface: #1a2332;
+      --border: #2d3a4f;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --accent: #58a6ff;
+      --accent-hover: #79b8ff;
+      --success: #3fb950;
+      --warning: #d29922;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 1.5rem;
+      line-height: 1.5;
+    }
+    h1 { font-size: 1.5rem; margin: 0 0 1rem; font-weight: 600; }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1rem;
+    }
+    .row { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+    button {
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      cursor: pointer;
+    }
+    button:hover { background: var(--accent-hover); }
+    button:disabled { opacity: 0.6; cursor: not-allowed; }
+    .status {
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    .status.running { color: var(--warning); }
+    .status.done { color: var(--success); }
+    .snapshot-list { list-style: none; padding: 0; margin: 0; }
+    .snapshot-list li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.6rem 0;
+      border-bottom: 1px solid var(--border);
+      gap: 1rem;
+    }
+    .snapshot-list li:last-child { border-bottom: none; }
+    .snapshot-list .date { font-weight: 500; }
+    .snapshot-list .meta { font-size: 0.85rem; color: var(--muted); }
+    .snapshot-list button { padding: 0.35rem 0.75rem; font-size: 0.85rem; }
+    .summary-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+    }
+    .summary-table th, .summary-table td {
+      text-align: left;
+      padding: 0.5rem 0.75rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .summary-table th { color: var(--muted); font-weight: 500; }
+    .summary-table tr:last-child td { border-bottom: none; }
+    .modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 10;
+      padding: 1rem;
+    }
+    .modal.hidden { display: none; }
+    .modal-inner {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      max-width: 640px;
+      width: 100%;
+      max-height: 85vh;
+      overflow: auto;
+    }
+    .chart-wrap { margin-top: 1rem; height: 200px; }
+    .trend-chart-wrap { position: relative; width: 100%; min-height: 220px; height: 220px; margin-top: 0.5rem; }
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .modal-header h2 { margin: 0; font-size: 1.1rem; }
+    .modal-close { background: transparent; color: var(--muted); padding: 0.25rem; }
+    .modal-close:hover { color: var(--text); }
+    .modal-body { padding: 1rem 1.25rem; }
+    .error { color: #f85149; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <h1>Archived Review Tracker</h1>
+
+  <div class="card">
+    <div class="row">
+      <button id="runBtn" type="button">Run weekly snapshot</button>
+      <span id="runStatus" class="status"></span>
+    </div>
+    <p style="margin: 0.5rem 0 0; font-size: 0.85rem; color: var(--muted);">
+      Runs the scraper for all apps and saves a snapshot to <code>snapshots/archived-YYYY-MM-DD.json</code>. May take several minutes.
+    </p>
+  </div>
+
+  <div class="card">
+    <div class="row">
+      <button id="weeklyReportBtn" type="button">Run weekly report</button>
+      <span id="weeklyReportStatus" class="status"></span>
+    </div>
+    <p style="margin: 0.5rem 0 0; font-size: 0.85rem; color: var(--muted);">
+      Counts new reviews (from newest-first) and current rating per app. Saves to <code>snapshots/weekly-report-YYYY-MM-DD.json</code> (week-end = last Sunday). Used by the Slack post below.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2 style="margin: 0 0 0.75rem; font-size: 1rem;">Trend</h2>
+    <p style="margin: 0; font-size: 0.85rem; color: var(--muted);">Total archived reviews per snapshot over time.</p>
+    <p id="trendNoData" style="display: none; margin: 1rem 0 0; color: var(--muted); font-size: 0.9rem;">No snapshot data yet. Run a weekly snapshot to see the trend.</p>
+    <p id="trendError" style="display: none; margin: 1rem 0 0; color: #f85149; font-size: 0.9rem;"></p>
+    <div class="trend-chart-wrap" id="trendChartWrap"><canvas id="trendChart"></canvas></div>
+  </div>
+
+  <div class="card">
+    <h2 style="margin: 0 0 0.75rem; font-size: 1rem;">Previous snapshots</h2>
+    <ul id="snapshotList" class="snapshot-list"></ul>
+    <p id="noSnapshots" style="display: none; color: var(--muted); margin: 0;">No snapshots yet. Run a weekly snapshot above.</p>
+  </div>
+
+  <div class="card">
+    <h2 style="margin: 0 0 0.75rem; font-size: 1rem;">Weekly Slack post</h2>
+    <p style="margin: 0 0 0.5rem; font-size: 0.85rem; color: var(--muted);">Uses latest snapshot (archived) + latest weekly report (new reviews &amp; ratings). Run both buttons above, then Generate.</p>
+    <div class="row" style="margin-bottom: 0.5rem;">
+      <button id="slackPostBtn" type="button">Generate Slack post</button>
+      <button id="slackCopyBtn" type="button" style="background: var(--surface); color: var(--accent); border: 1px solid var(--border);" disabled>Copy to clipboard</button>
+    </div>
+    <textarea id="slackPostText" readonly style="width: 100%; min-height: 220px; margin-top: 0.5rem; padding: 0.75rem; background: var(--bg); border: 1px solid var(--border); border-radius: 6px; color: var(--text); font-family: inherit; font-size: 0.85rem; resize: vertical;" placeholder="Click Generate to build the weekly report text…"></textarea>
+  </div>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-inner">
+      <div class="modal-header">
+        <h2 id="modalTitle">Snapshot summary</h2>
+        <button type="button" class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div id="modalContent"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script>
+    const runBtn = document.getElementById('runBtn');
+    const runStatus = document.getElementById('runStatus');
+    const weeklyReportBtn = document.getElementById('weeklyReportBtn');
+    const weeklyReportStatus = document.getElementById('weeklyReportStatus');
+    const snapshotList = document.getElementById('snapshotList');
+    const noSnapshots = document.getElementById('noSnapshots');
+    const modal = document.getElementById('modal');
+    const modalTitle = document.getElementById('modalTitle');
+    const modalContent = document.getElementById('modalContent');
+    const modalClose = document.getElementById('modalClose');
+
+    function setRunStatus(text, className = '') {
+      runStatus.textContent = text;
+      runStatus.className = 'status ' + className;
+    }
+
+    function setWeeklyReportStatus(text, className = '') {
+      if (weeklyReportStatus) {
+        weeklyReportStatus.textContent = text;
+        weeklyReportStatus.className = 'status ' + className;
+      }
+    }
+
+    async function fetchJson(url) {
+      const r = await fetch(url);
+      if (!r.ok) throw new Error(await r.text());
+      return r.json();
+    }
+
+    async function loadSnapshots() {
+      try {
+        const { snapshots } = await fetchJson('/api/snapshots');
+        snapshotList.innerHTML = '';
+        if (!snapshots.length) {
+          noSnapshots.style.display = 'block';
+          return;
+        }
+        noSnapshots.style.display = 'none';
+        for (const s of snapshots) {
+          const li = document.createElement('li');
+          const label = s.snapshotDate || s.filename.replace(/^archived-|\.json$/g, '');
+          li.innerHTML = `
+            <span>
+              <span class="date">${escapeHtml(label)}</span>
+              <span class="meta">${escapeHtml(s.filename)}</span>
+            </span>
+            <button type="button" data-filename="${escapeHtml(s.filename)}">View summary</button>
+          `;
+          li.querySelector('button').addEventListener('click', () => viewSummary(s.filename, label));
+          snapshotList.appendChild(li);
+        }
+      } catch (e) {
+        snapshotList.innerHTML = '<li class="error">Failed to load snapshots: ' + escapeHtml(e.message) + '</li>';
+      }
+    }
+
+    function escapeHtml(s) {
+      const div = document.createElement('div');
+      div.textContent = s;
+      return div.innerHTML;
+    }
+
+    function formatDateRange(start, end) {
+      if (!start || !end) return '';
+      const fmt = (iso) => {
+        const d = new Date(iso + 'T12:00:00Z');
+        const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+        return months[d.getUTCMonth()] + ' ' + d.getUTCDate() + ', ' + d.getUTCFullYear();
+      };
+      return fmt(start) + ' – ' + fmt(end) + ' (Monday – Sunday)';
+    }
+
+    let summaryStarChart = null;
+    let wowChart = null;
+    async function viewSummary(filename, label) {
+      modalTitle.textContent = 'Summary: ' + label;
+      modalContent.innerHTML = '<p style="color: var(--muted);">Loading…</p>';
+      modal.classList.remove('hidden');
+      if (summaryStarChart) { summaryStarChart.destroy(); summaryStarChart = null; }
+      try {
+        const summary = await fetchJson('/api/snapshots/' + encodeURIComponent(filename) + '?summary=1&weekOverWeek=1');
+        const range = summary.rangeStart && summary.rangeEnd
+          ? formatDateRange(summary.rangeStart, summary.rangeEnd)
+          : (summary.snapshotDate ? 'Week containing ' + summary.snapshotDate : '');
+        let html = '';
+        if (range) html += '<p style="color: var(--muted); margin: 0 0 0.75rem;">Archived reviews in range: ' + escapeHtml(range) + '</p>';
+        function formatInRange(app) {
+          const n = app.inRange || 0;
+          const ratings = app.inRangeRatings || [];
+          if (n === 0) return '0';
+          if (ratings.length === 0) return String(n);
+          const parts = ratings.map((s) => s != null ? s + '★' : '—');
+          if (parts.length <= 8) return n + ' (' + parts.join(', ') + ')';
+          const dist = {};
+          ratings.forEach((s) => { const k = s != null ? s + '★' : '—'; dist[k] = (dist[k] || 0) + 1; });
+          const distStr = Object.entries(dist).map(([k, v]) => v > 1 ? v + '×' + k : k).join(', ');
+          return n + ' (' + distStr + ')';
+        }
+        html += '<table class="summary-table"><thead><tr><th>App</th><th>Total archived</th><th>Last date</th><th>In range</th></tr></thead><tbody>';
+        for (const a of summary.apps) {
+          html += `<tr><td>${escapeHtml(a.app)}</td><td>${a.totalArchived}</td><td>${escapeHtml(a.lastDateISO || '—')}</td><td>${formatInRange(a)}</td></tr>`;
+        }
+        html += '</tbody></table>';
+        html += '<p style="margin-top: 0.75rem; font-size: 0.85rem; color: var(--muted);">In range = count and star ratings for that week (e.g. 2 (5★, 5★)).</p>';
+        html += '<p style="margin-top: 0.25rem; font-size: 0.9rem;">Total archived: ' + summary.totalArchived + ' &middot; In range: ' + summary.totalInRange + '</p>';
+        if (summary.previousWeek) {
+          const prev = summary.previousWeek;
+          const prevByApp = {};
+          (prev.apps || []).forEach((a) => { prevByApp[a.app] = a.inRange; });
+          html += '<h3 style="margin: 1.25rem 0 0.5rem; font-size: 0.95rem;">Week over week (archived in range)</h3>';
+          html += '<p style="margin: 0 0 0.5rem; font-size: 0.85rem; color: var(--muted);">This week: ' + escapeHtml(summary.rangeStart + ' – ' + summary.rangeEnd) + ' &nbsp;|&nbsp; Last week: ' + escapeHtml(prev.rangeStart + ' – ' + prev.rangeEnd) + '</p>';
+          html += '<table class="summary-table"><thead><tr><th>App</th><th>This week</th><th>Last week</th><th>Change</th></tr></thead><tbody>';
+          summary.apps.forEach((a) => {
+            const thisW = a.inRange || 0;
+            const lastW = prevByApp[a.app] != null ? prevByApp[a.app] : 0;
+            const delta = thisW - lastW;
+            const changeStr = delta === 0 ? '—' : (delta > 0 ? '+' + delta : delta);
+            const changeClass = delta > 0 ? ' style="color: var(--warning);"' : (delta < 0 ? ' style="color: var(--success);"' : '');
+            html += '<tr><td>' + escapeHtml(a.app) + '</td><td>' + thisW + '</td><td>' + lastW + '</td><td' + changeClass + '>' + changeStr + '</td></tr>';
+          });
+          html += '</tbody></table>';
+          html += '<p style="margin-top: 0.5rem; font-size: 0.85rem;">Total this week: ' + summary.totalInRange + ' &nbsp; Last week: ' + prev.totalInRange + ' &nbsp; Change: ' + (summary.totalInRange - prev.totalInRange >= 0 ? '+' : '') + (summary.totalInRange - prev.totalInRange) + '</p>';
+          html += '<div class="chart-wrap" style="margin-top: 0.75rem;"><canvas id="wowChart"></canvas></div>';
+        }
+        if (summary.stars && (summary.stars[1] + summary.stars[2] + summary.stars[3] + summary.stars[4] + summary.stars[5] + summary.stars.unknown > 0)) {
+          html += '<p style="margin-top: 1rem; font-size: 0.9rem; color: var(--muted);">Star rating of all archived reviews (from Shopify’s markup when available)</p>';
+          html += '<div class="chart-wrap"><canvas id="summaryStarCanvas"></canvas></div>';
+        }
+        modalContent.innerHTML = html;
+        if (summary.previousWeek && document.getElementById('wowChart')) {
+          const prev = summary.previousWeek;
+          const prevByApp = {};
+          (prev.apps || []).forEach((a) => { prevByApp[a.app] = a.inRange; });
+          const labels = summary.apps.map((a) => a.app);
+          const thisWeekData = summary.apps.map((a) => a.inRange || 0);
+          const lastWeekData = summary.apps.map((a) => prevByApp[a.app] != null ? prevByApp[a.app] : 0);
+          wowChart = new Chart(document.getElementById('wowChart').getContext('2d'), {
+            type: 'bar',
+            data: {
+              labels,
+              datasets: [
+                { label: 'This week', data: thisWeekData, backgroundColor: 'rgba(88,166,255,0.8)' },
+                { label: 'Last week', data: lastWeekData, backgroundColor: 'rgba(139,148,158,0.6)' }
+              ]
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+              plugins: { legend: { labels: { color: '#e6edf3' } } },
+              scales: {
+                y: { beginAtZero: true, grid: { color: 'rgba(45,58,79,0.5)' }, ticks: { color: '#8b949e' } },
+                x: { grid: { display: false }, ticks: { color: '#8b949e', maxRotation: 45 } }
+              }
+            }
+          });
+        }
+        if (summary.stars && document.getElementById('summaryStarCanvas')) {
+          const stars = summary.stars;
+          const ctx = document.getElementById('summaryStarCanvas').getContext('2d');
+          summaryStarChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+              labels: ['1 star', '2 stars', '3 stars', '4 stars', '5 stars', 'Unknown'],
+              datasets: [{
+                label: 'Count',
+                data: [stars[1], stars[2], stars[3], stars[4], stars[5], stars.unknown],
+                backgroundColor: ['#f85149','#d29922','#d29922','#58a6ff','#3fb950','#8b949e'],
+              }]
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+              plugins: { legend: { display: false } },
+              scales: {
+                y: { beginAtZero: true, grid: { color: 'rgba(45,58,79,0.5)' }, ticks: { color: '#8b949e' } },
+                x: { grid: { display: false }, ticks: { color: '#8b949e', maxRotation: 0 } }
+              }
+            }
+          });
+        }
+      } catch (e) {
+        modalContent.innerHTML = '<p class="error">' + escapeHtml(e.message) + '</p>';
+      }
+    }
+
+    modalClose.addEventListener('click', () => {
+      if (summaryStarChart) { summaryStarChart.destroy(); summaryStarChart = null; }
+      if (wowChart) { wowChart.destroy(); wowChart = null; }
+      modal.classList.add('hidden');
+    });
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+        if (summaryStarChart) { summaryStarChart.destroy(); summaryStarChart = null; }
+        if (wowChart) { wowChart.destroy(); wowChart = null; }
+        modal.classList.add('hidden');
+      }
+    });
+
+    runBtn.addEventListener('click', async () => {
+      runBtn.disabled = true;
+      setRunStatus('Starting…', 'running');
+      try {
+        const result = await fetch('/api/snapshot/run', { method: 'POST' });
+        const data = await result.json();
+        if (result.status === 409) {
+          setRunStatus('A snapshot is already running.', 'running');
+          runBtn.disabled = false;
+          return;
+        }
+        setRunStatus('Snapshot running for ' + data.date + '. Refresh the list when it finishes.', 'running');
+      } catch (e) {
+        setRunStatus('Error: ' + e.message, '');
+      }
+      runBtn.disabled = false;
+    });
+
+    weeklyReportBtn.addEventListener('click', async () => {
+      weeklyReportBtn.disabled = true;
+      setWeeklyReportStatus('Starting…', 'running');
+      try {
+        const result = await fetch('/api/weekly-report/run', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: '{}' });
+        const data = await result.json();
+        if (result.status === 409) {
+          setWeeklyReportStatus('A weekly report is already running.', 'running');
+          weeklyReportBtn.disabled = false;
+          return;
+        }
+        setWeeklyReportStatus('Report running (week-end ' + data.weekEnd + '). May take a few minutes.', 'running');
+      } catch (e) {
+        setWeeklyReportStatus('Error: ' + e.message, '');
+      }
+      weeklyReportBtn.disabled = false;
+    });
+
+    function pollStatus() {
+      fetch('/api/snapshot/status')
+        .then(r => r.json())
+        .then(state => {
+          if (state.running) {
+            setRunStatus('Running since ' + (state.startedAt || '').slice(0, 19) + '…', 'running');
+          } else if (state.finishedAt) {
+            setRunStatus('Last run finished ' + state.finishedAt.slice(0, 19) + (state.error ? ' (with errors)' : '.'), state.error ? '' : 'done');
+            loadSnapshots();
+            renderTrendChart();
+          }
+        })
+        .catch(() => {});
+      fetch('/api/weekly-report/status')
+        .then(r => r.json())
+        .then(state => {
+          if (state.running) {
+            setWeeklyReportStatus('Running since ' + (state.startedAt || '').slice(0, 19) + '…', 'running');
+          } else if (state.finishedAt) {
+            setWeeklyReportStatus('Last run finished ' + state.finishedAt.slice(0, 19) + (state.error ? ' (with errors)' : '.'), state.error ? '' : 'done');
+          }
+        })
+        .catch(() => {});
+    }
+
+    function renderTrendChart() {
+      const canvas = document.getElementById('trendChart');
+      const wrap = document.getElementById('trendChartWrap');
+      const noData = document.getElementById('trendNoData');
+      const errEl = document.getElementById('trendError');
+      if (!canvas || !wrap || !noData || !errEl) return;
+      errEl.style.display = 'none';
+      errEl.textContent = '';
+      fetchJson('/api/trend').then(({ trend }) => {
+        if (window.trendChart && typeof window.trendChart.destroy === 'function') {
+          try { window.trendChart.destroy(); } catch (_) {}
+          window.trendChart = null;
+        }
+        if (!trend || trend.length === 0) {
+          noData.style.display = 'block';
+          wrap.style.display = 'none';
+          return;
+        }
+        noData.style.display = 'none';
+        wrap.style.display = 'block';
+        const sorted = [...trend].sort((a, b) => (a.snapshotDate || '').localeCompare(b.snapshotDate || ''));
+        const labels = sorted.map((p) => p.snapshotDate || p.filename.replace(/^archived-|\.json$/g, ''));
+        if (typeof Chart === 'undefined') {
+          errEl.textContent = 'Chart.js failed to load. Check your connection.';
+          errEl.style.display = 'block';
+          return;
+        }
+        window.trendChart = new Chart(canvas.getContext('2d'), {
+          type: 'line',
+          data: {
+            labels,
+            datasets: [
+              { label: 'Total archived', data: sorted.map((p) => p.totalArchived), borderColor: '#58a6ff', backgroundColor: 'rgba(88,166,255,0.1)', fill: true, tension: 0.2 },
+              { label: 'In range (week)', data: sorted.map((p) => p.totalInRange), borderColor: '#3fb950', backgroundColor: 'rgba(63,185,80,0.1)', fill: true, tension: 0.2 }
+            ]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { labels: { color: '#e6edf3' } } },
+            scales: {
+              y: { beginAtZero: true, grid: { color: 'rgba(45,58,79,0.5)' }, ticks: { color: '#8b949e' } },
+              x: { grid: { color: 'rgba(45,58,79,0.5)' }, ticks: { color: '#8b949e', maxRotation: 45 } }
+            }
+          }
+        });
+      }).catch((e) => {
+        noData.style.display = 'none';
+        wrap.style.display = 'none';
+        errEl.textContent = 'Could not load trend: ' + (e.message || 'Unknown error');
+        errEl.style.display = 'block';
+      });
+    }
+
+    const slackPostBtn = document.getElementById('slackPostBtn');
+    const slackCopyBtn = document.getElementById('slackCopyBtn');
+    const slackPostText = document.getElementById('slackPostText');
+    slackPostBtn.addEventListener('click', async () => {
+      slackPostBtn.disabled = true;
+      slackPostText.value = 'Loading…';
+      try {
+        const { text } = await fetchJson('/api/slack-post');
+        slackPostText.value = text;
+        slackCopyBtn.disabled = !text;
+      } catch (e) {
+        slackPostText.value = 'Error: ' + e.message;
+        slackCopyBtn.disabled = true;
+      }
+      slackPostBtn.disabled = false;
+    });
+    slackCopyBtn.addEventListener('click', async () => {
+      const text = slackPostText.value;
+      if (!text) return;
+      try {
+        await navigator.clipboard.writeText(text);
+        slackCopyBtn.textContent = 'Copied!';
+        setTimeout(() => { slackCopyBtn.textContent = 'Copy to clipboard'; }, 2000);
+      } catch {
+        slackPostText.select();
+        document.execCommand('copy');
+        slackCopyBtn.textContent = 'Copied!';
+        setTimeout(() => { slackCopyBtn.textContent = 'Copy to clipboard'; }, 2000);
+      }
+    });
+
+    loadSnapshots();
+    renderTrendChart();
+    pollStatus();
+    setInterval(pollStatus, 5000);
+    setInterval(() => { loadSnapshots(); renderTrendChart(); }, 30000);
+  </script>
+</body>
+</html>

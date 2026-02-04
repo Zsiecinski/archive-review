@@ -1,0 +1,67 @@
+{
+  "weekStart": "2026-01-26",
+  "weekEnd": "2026-02-01",
+  "generatedAt": "2026-02-04T07:44:39.085Z",
+  "apps": [
+    {
+      "slug": "event-tickets",
+      "appReviewsUrl": "https://apps.shopify.com/event-tickets/reviews",
+      "newReviews": 3,
+      "currentRating": 4.5
+    },
+    {
+      "slug": "kiwi-sizing",
+      "appReviewsUrl": "https://apps.shopify.com/kiwi-sizing/reviews",
+      "newReviews": 9,
+      "currentRating": 4.8
+    },
+    {
+      "slug": "automatic-discount-rules",
+      "appReviewsUrl": "https://apps.shopify.com/automatic-discount-rules/reviews",
+      "newReviews": 0,
+      "currentRating": 4.5
+    },
+    {
+      "slug": "kiwi-return-saver",
+      "appReviewsUrl": "https://apps.shopify.com/kiwi-return-saver/reviews",
+      "newReviews": 0,
+      "currentRating": 4.9
+    },
+    {
+      "slug": "boxup-product-builder",
+      "appReviewsUrl": "https://apps.shopify.com/boxup-product-builder/reviews",
+      "newReviews": 0,
+      "currentRating": 4.1
+    },
+    {
+      "slug": "ultimate-upsell",
+      "appReviewsUrl": "https://apps.shopify.com/ultimate-upsell/reviews",
+      "newReviews": 0,
+      "currentRating": 4
+    },
+    {
+      "slug": "preorder-now",
+      "appReviewsUrl": "https://apps.shopify.com/preorder-now/reviews",
+      "newReviews": 0,
+      "currentRating": 4.5
+    },
+    {
+      "slug": "quantity-breaks-now",
+      "appReviewsUrl": "https://apps.shopify.com/quantity-breaks-now/reviews",
+      "newReviews": 0,
+      "currentRating": 4.6
+    },
+    {
+      "slug": "wholesale-pricing-now",
+      "appReviewsUrl": "https://apps.shopify.com/wholesale-pricing-now/reviews",
+      "newReviews": 0,
+      "currentRating": 4.2
+    },
+    {
+      "slug": "zendrop",
+      "appReviewsUrl": "https://apps.shopify.com/zendrop/reviews",
+      "newReviews": 19,
+      "currentRating": 4.2
+    }
+  ]
+}

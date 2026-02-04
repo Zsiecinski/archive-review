@@ -1,0 +1,3148 @@
+{
+  "snapshotDate": "2026-02-03",
+  "apps": [
+    {
+      "appReviewsUrl": "https://apps.shopify.com/event-tickets/reviews",
+      "firstPageUrl": "https://apps.shopify.com/event-tickets/reviews?page=1",
+      "lastPage": 23,
+      "archivedReviews": [
+        {
+          "id": "2063149",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2026806",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2015748",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1978685",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1968234",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1923893",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1923643",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1919892",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1898794",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1872507",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1857374",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1853053",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1801407",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1779329",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1764750",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1758059",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1668747",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1658972",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1524478",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1518366",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1508950",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1505382",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1503750",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1480081",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1473355",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1440677",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1419845",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1400095",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1391186",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1391072",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1362851",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1324937",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1260585",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1255939",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1255207",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1173758",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1130000",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1077967",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1076295",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1072485",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1042684",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1003780",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "967150",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "953093",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "949678",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "856301",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "823544",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "823253",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "821871",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "804560",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        }
+      ]
+    },
+    {
+      "appReviewsUrl": "https://apps.shopify.com/kiwi-sizing/reviews",
+      "firstPageUrl": "https://apps.shopify.com/kiwi-sizing/reviews?page=1",
+      "lastPage": 98,
+      "archivedReviews": [
+        {
+          "id": "2062942",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2062184",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2061464",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2060751",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2060654",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2060034",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2060014",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2059158",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2055794",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2055475",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2054952",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2053985",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2053205",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2051080",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2050259",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2045530",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2044958",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2044954",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2044619",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2043553",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2043524",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2042633",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2042616",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2042395",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2041502",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2040373",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2038626",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2036127",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2036097",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2034527",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2032385",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2031770",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2029398",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2028008",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2026846",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2024495",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2023982",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2022099",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2022058",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2021027",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2019381",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2018180",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2017593",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2017149",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2013701",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2013475",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2013267",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2012847",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2011817",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "2010733",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        }
+      ]
+    },
+    {
+      "appReviewsUrl": "https://apps.shopify.com/automatic-discount-rules/reviews",
+      "firstPageUrl": "https://apps.shopify.com/automatic-discount-rules/reviews?page=1",
+      "lastPage": 20,
+      "archivedReviews": [
+        {
+          "id": "1752870",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1749712",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1747432",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1472294",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1458562",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1450656",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1445864",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1413096",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1364055",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1279489",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1253453",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1226437",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1215624",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1180211",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1178735",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1170346",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1158743",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1143508",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1102508",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1053409",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1000291",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "982525",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "940656",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "939553",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "936275",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "926670",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "923452",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "893388",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "882541",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "874124",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "859595",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "826911",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "825638",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "824369",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "818340",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "798932",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "789700",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "771849",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "766913",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "696862",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "664580",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "662670",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "638523",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "627474",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "625682",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "619513",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "612459",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "602780",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "601724",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "600151",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        }
+      ]
+    },
+    {
+      "appReviewsUrl": "https://apps.shopify.com/kiwi-return-saver/reviews",
+      "firstPageUrl": "https://apps.shopify.com/kiwi-return-saver/reviews?page=1",
+      "lastPage": 1,
+      "archivedReviews": [
+        {
+          "id": "1847950",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1836801",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        }
+      ]
+    },
+    {
+      "appReviewsUrl": "https://apps.shopify.com/boxup-product-builder/reviews",
+      "firstPageUrl": "https://apps.shopify.com/boxup-product-builder/reviews?page=1",
+      "lastPage": 12,
+      "archivedReviews": [
+        {
+          "id": "1357422",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1268612",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1238130",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1227718",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1216370",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1098858",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1073858",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1051842",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "976390",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "970085",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "967656",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "966375",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "958453",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "955080",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "948009",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "937661",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "920850",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "919544",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "909183",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "900739",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "898205",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "896853",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "833506",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "889277",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "887703",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "887569",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "822253",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "874424",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "867887",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "864715",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "863909",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "858371",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "858283",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "857274",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "852483",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "847072",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "846001",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "844068",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "844021",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "844012",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "842769",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "841255",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "840728",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "833163",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "827280",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "823600",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "810376",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "747900",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "742189",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "740451",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        }
+      ]
+    },
+    {
+      "appReviewsUrl": "https://apps.shopify.com/ultimate-upsell/reviews",
+      "firstPageUrl": "https://apps.shopify.com/ultimate-upsell/reviews?page=1",
+      "lastPage": 3,
+      "archivedReviews": [
+        {
+          "id": "1906210",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1841381",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1750175",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1647784",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "894338",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "649205",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "648080",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "595453",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "521663",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "518677",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "447785",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "432731",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "428388",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "427187",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "416752",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "415602",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "350705",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "324125",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "320329",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "281245",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "252932",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "252826",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "195333",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "179927",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "178597",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "176801",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "166957",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "162713",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "148924",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "148748",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "146635",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "143860",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "132513",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        }
+      ]
+    },
+    {
+      "appReviewsUrl": "https://apps.shopify.com/preorder-now/reviews",
+      "firstPageUrl": "https://apps.shopify.com/preorder-now/reviews?page=1",
+      "lastPage": 102,
+      "archivedReviews": [
+        {
+          "id": "2045580",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1996580",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1907608",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1889739",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1858391",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1828680",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1803869",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1795256",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1776581",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1651235",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1650221",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1648827",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1645742",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1620402",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1605500",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1577391",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1570710",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1544446",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1540250",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1527601",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1519458",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1515076",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1498937",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1494170",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1490103",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1485592",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1475753",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1453407",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1453320",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1452389",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1425590",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1423965",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1421499",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1420600",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1415644",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1412836",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1407513",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1399895",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1399425",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1397181",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1384596",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1382834",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1373123",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1372706",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1370765",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1367550",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1365459",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1361769",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1361331",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1360990",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        }
+      ]
+    },
+    {
+      "appReviewsUrl": "https://apps.shopify.com/quantity-breaks-now/reviews",
+      "firstPageUrl": "https://apps.shopify.com/quantity-breaks-now/reviews?page=1",
+      "lastPage": 20,
+      "archivedReviews": [
+        {
+          "id": "524305",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1652599",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1345151",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1342901",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1111853",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1109439",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1105371",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1102197",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1098200",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1037834",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1036194",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1029098",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1020892",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1000798",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "995454",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "988429",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "986815",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "985129",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "983768",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "976839",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "969371",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "963634",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "963254",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "960423",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "959406",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "958332",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "950209",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "948354",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "947393",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "939881",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "922515",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "920861",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "911913",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "908351",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "902184",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "865656",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "896964",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "896528",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "889537",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "888616",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "884150",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "880333",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "879692",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "865746",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "874043",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "873115",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "872096",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "870378",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "870184",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "867987",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        }
+      ]
+    },
+    {
+      "appReviewsUrl": "https://apps.shopify.com/wholesale-pricing-now/reviews",
+      "firstPageUrl": "https://apps.shopify.com/wholesale-pricing-now/reviews?page=1",
+      "lastPage": 21,
+      "archivedReviews": [
+        {
+          "id": "1120289",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1097745",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1065382",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1057501",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1056874",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1033248",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "907324",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "1023258",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "857820",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "979456",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "962762",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "955082",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "953954",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "951893",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "950745",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "938291",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "937361",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "937336",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "930024",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "928629",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "915041",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "891156",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "890656",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "876564",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "869094",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "862268",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "857424",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "848852",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "846734",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "836465",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "814987",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "800478",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "770348",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "711775",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "705296",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "702000",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "696272",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "694498",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "685832",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "658515",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "647046",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "630112",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "625732",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "602230",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "595010",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "594998",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "578623",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "571585",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "556785",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        },
+        {
+          "id": "505387",
+          "rating": null,
+          "ratingLabel": null,
+          "text": null,
+          "dateText": null,
+          "dateISO": null
+        }
+      ]
+    }
+  ]
+}
