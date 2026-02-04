@@ -268,7 +268,7 @@ app.post('/api/snapshot/run', (req, res) => {
     {
       cwd: __dirname,
       stdio: ['ignore', 'pipe', 'pipe'],
-      env: { ...process.env, PLAYWRIGHT_BROWSERS_PATH: process.env.PLAYWRIGHT_BROWSERS_PATH || '' },
+      env: { ...process.env },
     }
   );
   setRunState({
@@ -327,7 +327,7 @@ app.post('/api/weekly-report/run', (req, res) => {
     {
       cwd: __dirname,
       stdio: ['ignore', 'pipe', 'pipe'],
-      env: { ...process.env, PLAYWRIGHT_BROWSERS_PATH: process.env.PLAYWRIGHT_BROWSERS_PATH || '' },
+      env: { ...process.env },
     }
   );
   setWeeklyReportState({
